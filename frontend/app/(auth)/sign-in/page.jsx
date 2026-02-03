@@ -1,11 +1,7 @@
-import React, { Component } from 'react'
+"use client";
 
-export class page extends Component {
-  render() {
-    return (
-      <div>page</div>
-    )
-  }
+import { SignIn } from "@clerk/nextjs";
+
+export default function SignInPage() {
+  return <SignIn appearance={{ elements: { card: "shadow-none" } }} />;
 }
-
-export default page
