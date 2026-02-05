@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Servd - AI Recipes Platform",
-  description: "",
+  description: "AI-powered recipes from your pantry with Pro chef features.",
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     >
       <html lang="en" suppressHydrationWarning>
         <head>
-          <link rel="icon" href="/logo.png" sizes="any" />
+          <link rel="icon" href="/orange-logo.png" sizes="any" />
         </head>
         <body className={`${inter.className}`}>
           <Header />
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="flex items-center gap-3">
                 <Image
-                  src="/logo.png"
+                  src="/orange-logo.png"
                   alt="Servd Logo"
                   width={48}
                   height={48}
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
                 />
               </div>
               <p className="text-stone-500 text-sm">
-                Made by Vaibhav Pandey decdicated to helping you cook better!
+                Made by Vaibhav Pandey dedicated to helping you cook better.
               </p>
             </div>
           </footer>
